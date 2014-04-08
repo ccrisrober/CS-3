@@ -3,17 +3,47 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://www.renfe.com/" />
-<title>tarjetaJovenPedro</title>
+<link rel="selenium.base" href="https://venta.renfe.com/" />
+<title>joven</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">tarjetaJovenPedro</td></tr>
+<tr><td rowspan="1" colspan="3">joven</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>/viajeros/tarjetas/tarjetajoven.html</td>
+	<td>/vol/ventaTarjeta.do</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=dni</td>
+	<td>label=Pasaporte</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=numDocumento</td>
+	<td>02275412E</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=tratamiento</td>
+	<td>label=Sra.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=usuarioCompradorEmailVerificador</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=usuarioCompradorNombre</td>
+	<td>dfgdfg</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img[title=&quot;Compra tu Tarjeta Joven&quot;]</td>
 	<td></td>
 </tr>
 <tr>
@@ -22,13 +52,133 @@
 	<td></td>
 </tr>
 <tr>
-	<td>selectWindow</td>
-	<td>name=ContenidoOfertas</td>
+	<td>type</td>
+	<td>id=usuarioCompradorPrimerApellido</td>
+	<td>dfgdfg</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=usuarioCompradorSegundoApellido</td>
+	<td>dfgdfg</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=usuarioCompradorCdgoPoblacion</td>
+	<td>dgdfg</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=usuarioCompradorCdgoProvincia</td>
+	<td>label=GERONA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=usuarioCompradorCdgoPostal</td>
+	<td>26206</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=usuarioCompradorFecha</td>
+	<td>18/04/1985</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=usuarioCompradorNumero</td>
+	<td>45645</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=usuarioCompradorDireccion</td>
+	<td>dfghjgfdghfhjkfdj</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=usuarioCompradorEmailVerificador</td>
+	<td>dfgdf@ssf.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=usuarioCompradorEmail</td>
+	<td>dfgdf@ssf.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=usuarioCompradorTelefonoMovil</td>
+	<td>654441144</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.ui-datepicker-trigger</td>
 	<td></td>
 </tr>
 <tr>
+	<td>click</td>
+	<td>css=option[value=&quot;1994&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.ui-datepicker-trigger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.ui-datepicker-trigger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=aceptarOfertas</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=usuarioCompradorCdgoProvincia</td>
+	<td>label=MADRID</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=usuarioCompradorCdgoPoblacion</td>
+	<td>Getafe</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=usuarioCompradorCdgoPostal</td>
+	<td>28903</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//body/div[3]/ul/li</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=usuarioCompradorNumero</td>
+	<td>45</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=nombreEstampao</td>
+	<td>Este es mi nombre y eso XD</td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
-	<td>link=Inicio Compra</td>
+	<td>link=Continuar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=condicionesUso</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Continuar</td>
 	<td></td>
 </tr>
 
